@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="events">Events</string>
+    <string name="museums">Museums</string>
+    <string name="other_atractions">Other atractions</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="custom_layout_text">Some text</string>
+    <string name="menu_text1">Cracow</string>
+    <string name="menu_text2">Tour Guide Menu:</string>
+    <string name="menu_welcome_text">Welcome to Cracow Tour Guide Application</string>
+    <string name="menu_help_text">Use this menu to navigate</string>
+    <string name="fragment_item_descritpion">Picture of ListView Item</string>
+    <string name="arrow_image">Arrow Image Picture</string>
+</resources>
