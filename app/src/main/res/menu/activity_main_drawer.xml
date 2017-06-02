@@ -5,18 +5,18 @@
         <item
             android:id="@+id/nav_restaurants"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Restaurants" />
+            android:title="@string/restaurants_menu_name" />
         <item
             android:id="@+id/nav_events"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Events" />
+            android:title="@string/events_menu_name" />
         <item
             android:id="@+id/nav_museums"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Museum" />
+            android:title="@string/museums_menu_name" />
         <item
             android:id="@+id/nav_other_atractions"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Other Atractions" />
+            android:title="@string/other_menu_name" />
     </group>
 </menu>

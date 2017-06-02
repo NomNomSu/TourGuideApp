@@ -18,10 +18,10 @@ public class Museums extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_museums, container, false);
         ArrayList<Item> events = new ArrayList<>();
-        events.add(new Item("The Czartoryski Museum and Library is a museum located in Kraków, Poland, founded in Puławy in 1796 by Princess Izabela Czartoryska.", R.drawable.klasztorek));
-        events.add(new Item("The Gallery of 19th-Century Polish Art at Sukiennice, is a division of the National Museum, Kraków, Poland.", R.drawable.sukiennice));
-        events.add(new Item("Pharmacy Museum, (Jagiellonian University Medical College) is a museum on Floriańska Street, Kraków, Poland.", R.drawable.farmacja));
-        events.add(new Item("Kraków National Museum was first housed at the upper floor of the Renaissance Sukiennice building located at the Main Square in the Kraków Old Town. ", R.drawable.narodowe));
+        events.add(new Item(getString(R.string.museum1), R.drawable.klasztorek));
+        events.add(new Item(getString(R.string.museum2), R.drawable.sukiennice));
+        events.add(new Item(getString(R.string.museum3), R.drawable.farmacja));
+        events.add(new Item(getString(R.string.museum4), R.drawable.narodowe));
         ItemAdapter itemAdapter = new ItemAdapter(getActivity(), events);
         ListView listView = (ListView) view.findViewById(R.id.events_list);
         listView.setAdapter(itemAdapter);

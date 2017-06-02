@@ -22,10 +22,10 @@ public class Events extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_events, container, false);
         ArrayList<Item> events = new ArrayList<>();
-        events.add(new Item("Milk Opera" + "\n" + "This unique “opera” was dramaturgically tuned and directed by Mikołaj Grabowski, a mocker of national sins. Four excellent performers gracefully fill in this created world of gigantic humour", R.drawable.milk_opera));
-        events.add(new Item("18th Week of People with Disabilities" + "\n" + "For the last 18 years, late May and early June in Kraków have been dedicated to people who have been dealt a bit of a harsher card in life", R.drawable.niepelno_sprawni));
-        events.add(new Item("Glass forming shows" + "\n" + "All interested in fascinating process of glass forming are invited to Glass and Ceramics Centre, Krakow, for glass forming shows!", R.drawable.glass_form));
-        events.add(new Item("57th Krakow Film Festival" + "\n" + "Krakow Film Festival is one of the oldest events in Europe dedicated to documentary, animated and short feature films.", R.drawable.l));
+        events.add(new Item(getString(R.string.events1), R.drawable.milk_opera));
+        events.add(new Item(getString(R.string.events2), R.drawable.niepelno_sprawni));
+        events.add(new Item(getString(R.string.events3), R.drawable.glass_form));
+        events.add(new Item(getString(R.string.events4), R.drawable.l));
         ItemAdapter itemAdapter = new ItemAdapter(getActivity(), events);
         ListView listView = (ListView) view.findViewById(R.id.events_list);
         listView.setAdapter(itemAdapter);

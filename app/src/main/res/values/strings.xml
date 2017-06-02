@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Tour Guide App</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -14,4 +14,25 @@
     <string name="menu_help_text">Use this menu to navigate</string>
     <string name="fragment_item_descritpion">Picture of ListView Item</string>
     <string name="arrow_image">Arrow Image Picture</string>
+    <string name="events1">Milk Opera\nThis unique “opera” was dramaturgically tuned and directed by Mikołaj Grabowski, a mocker of national sins. Four excellent performers gracefully fill in this created world of gigantic humour</string>
+    <string name="events2">18th Week of People with Disabilities\nFor the last 18 years, late May and early June in Kraków have been dedicated to people who have been dealt a bit of a harsher card in life</string>
+    <string name="events3">Glass forming shows\nAll interested in fascinating process of glass forming are invited to Glass and Ceramics Centre, Krakow, for glass forming shows!</string>
+    <string name="events4">57th Krakow Film Festival\nKrakow Film Festival is one of the oldest events in Europe dedicated to documentary, animated and short feature films.</string>
+    <string name="museum1">The Czartoryski Museum and Library is a museum located in Kraków, Poland, founded in Puławy in 1796 by Princess Izabela Czartoryska.</string>
+    <string name="museum2">The Gallery of 19th-Century Polish Art at Sukiennice, is a division of the National Museum, Kraków, Poland.</string>
+    <string name="museum3">Pharmacy Museum, (Jagiellonian University Medical College) is a museum on Floriańska Street, Kraków, Poland.</string>
+    <string name="museum4">Kraków National Museum was first housed at the upper floor of the Renaissance Sukiennice building located at the Main Square in the Kraków Old Town.</string>
+    <string name="restaurant1" tools:ignore="TypographyDashes">Nago Sushi %26 Sake\nJapanese, Sushi, Asian, Fusion, Vegetarian Friendly, Vegan Options\nul. Sw. Gertrudy 7, Krakow 31-046, Poland</string>
+    <string name="restaurant2" tools:ignore="TypographyDashes">Restaurant Starka\nPolish, Eastern European, Central European, Vegetarian Friendly, Vegan\nul. Jozefa 14, Krakow 31-056, Poland</string>
+    <string name="restaurant3" tools:ignore="TypographyDashes">Zielona Kuchnia\nContemporary, Fusion, Healthy, Polish, European, Vegetarian\nUl. Ambrozego Grabowskiego 8/9, Krakow 31-126, Poland</string>
+    <string name="restaurant4" tools:ignore="TypographyDashes">Taste of India\nIndian, Asian, Vegetarian Friendly, Vegan Options\nDietla 46, Krakow 31-039, Poland</string>
+    <string name="other1" tools:ignore="TypographyDashes">Piwnica pod Baranami\nPiwnica Pod Baranami is the most bizarre and the most wonderful cabaret in the world – according to its viewers and friends. And there is a fair chance they are right</string>
+    <string name="other2" tools:ignore="TypographyDashes">Andrzej Mleczko Gallery\nMleczkoland is a weird and mysterious realm.\nIn the south, it borders mountains, in the north - sea, in the west Europe and in the east Asia. The inhabitants of Mleczkoland observe uncommon customs and manifest bizarre attitudes.</string>
+    <string name="other3">Groteska Theatre\nGroteska Theatre in Kraków is one of the oldest and most renowned puppetries in Poland. It was established in 1945 by outstanding artists: Zofia and Władysław Jarema</string>
+    <string name="other4">Wieliczka Slat Mine\nThe “Wieliczka” Salt Mine is one of the most valuable monuments of material and spiritual culture in Poland</string>
+    <string name="events_menu_name">Events</string>
+    <string name="museums_menu_name">Museums</string>
+    <string name="other_menu_name">Other Atractions</string>
+    <string name="restaurants_menu_name">Restaurants</string>
+
 </resources>
